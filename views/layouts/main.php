@@ -27,7 +27,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
+        'brandLabel' => '哔哩哔哩',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -36,9 +36,12 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => '主站', 'url' => ['/site/index']],
+            ['label' => '画友', 'url' => ['/site/about']],
+            ['label' => '游戏中心', 'url' => ['/site/about']],
+            ['label' => '直播', 'url' => ['/site/about']],
+            ['label' => '周边', 'url' => ['/site/about']],
+            ['label' => 'BML', 'url' => ['/site/about']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
@@ -52,6 +55,7 @@ AppAsset::register($this);
                 . '</li>'
             )
         ],
+
     ]);
     NavBar::end();
     ?>
@@ -66,9 +70,11 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
+         <a href="site/contact">联系我们</a>
         <p class="pull-left">&copy; bilibili  <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
+
     </div>
 </footer>
 
