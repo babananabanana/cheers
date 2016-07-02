@@ -38,7 +38,7 @@ AppAsset::register($this);
         'items' => [
             ['label' => '主站', 'url' => ['/site/index']],
             ['label' => '画友', 'url' => ['/site/about']],
-            ['label' => '游戏中心', 'url' => ['/site/about']],
+            ['label' => '游戏中心', 'url' => ['/site/contact']],
             ['label' => '直播', 'url' => ['/site/about']],
             ['label' => '周边', 'url' => ['/site/about']],
             ['label' => 'BML', 'url' => ['/site/about']],
@@ -70,7 +70,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-         <a href="site/contact">联系我们</a>
+         <a href="index.php?r=site%2Fcontact">联系我们</a>
         <p class="pull-left">&copy; bilibili  <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
