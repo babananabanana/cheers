@@ -70,9 +70,27 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-         <a href="index.php?r=site%2Fcontact">联系我们</a>
+    <?php
+  NavBar::begin([
+    ]);
+    echo Nav::widget([
+        'options' => ['class' => 'navbar-nav navbar-right'],
+        'items' => [
+            ['label' => '主站', 'url' => ['/site/index']],
+            ['label' => '画友', 'url' => ['/site/about']],
+            ['label' => '联系我们', 'url' => ['/site/contact']],
+            ['label' => '直播', 'url' => ['/site/about']],
+            ['label' => '周边', 'url' => ['/site/about']],
+            ['label' => 'BML', 'url' => ['/site/about']],
+        ],
+
+    ]);
+    NavBar::end();
+    ?>
+      <!--   <a href="index.php?r=site%2Fcontact">联系我们</a>
 	<p><a class = "btn btn-login button-success" href="/../site/login.php">login</a></p>
          <p><a class = "btn btn-contact" href="/../site/contact.php">contact</a></p>
+         -->
         <p class="pull-left">&copy; bilibili  <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
