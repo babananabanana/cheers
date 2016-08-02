@@ -4,14 +4,27 @@
 
 use yii\helpers\Html;
 
-$this->title = 'About';
+$this->title = '关于我们';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        This is the About page. You may modify the following file to customize its content:
+哔哩哔哩弹幕网，简称"bilibili"，是一家以ACG(Animation、Comic、Game)为主题的娱乐站点。</br>
+
+站点目前开设有动画、番剧、音乐、舞蹈、游戏、科技、娱乐、鬼畜、电影、电视剧10大板块。</br>
+
+动画区：　　最多姿多彩的板块，主要内容以各种手书、MAD、AMV等为主。</br>
+番剧区：　　以最快，最新的动画、清晰的画质、流畅的缓冲速度成为很多人常驻bilibili的重要理由。</br>
+音乐区：　　以V家与翻唱为主打，但也有不少优秀的原创作者和弹奏者常驻。</br>
+舞蹈区：　　集中了来自日本和国内舞见的大量优秀作品，以及很多优秀的新人舞蹈。</br>
+游戏区：　　以游戏视频攻略及解说，及Mugen等为主。</br>
+科技区：　　领略各界前沿科技，以及不同层面的纵向科普，技术宅的聚集地。</br>
+娱乐区：　　以各类优秀、欢乐、有趣的娱乐性视频为主打。</br>
+鬼畜区：　　二、三次元的鬼畜视频，填不上的脑洞，防不住的高能。</br>
+电影区：    各类电影的汇聚地，国外新片第一时间看到。</br>
+电视剧区：  以日剧、美剧以及其他各类剧集为主，更新及时，画质清晰。</br>
     </p>
 
     <code><?= __FILE__ ?></code>

@@ -74,14 +74,12 @@ AppAsset::register($this);
   NavBar::begin([
     ]);
     echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
+        'options' => ['class' => 'navbar-nav '],
         'items' => [
-            ['label' => '主站', 'url' => ['/site/index']],
-            ['label' => '画友', 'url' => ['/site/about']],
+            ['label' => '关于我们', 'url' => ['/site/about']],
             ['label' => '联系我们', 'url' => ['/site/contact']],
-            ['label' => '直播', 'url' => ['/site/about']],
-            ['label' => '周边', 'url' => ['/site/about']],
-            ['label' => 'BML', 'url' => ['/site/about']],
+            ['label' => '友情链接', 'url' => ['/site/about']],
+            ['label' => '加入我们', 'url' => ['/site/about']],
         ],
 
     ]);
