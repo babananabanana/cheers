@@ -37,11 +37,11 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => '主站', 'url' => ['/site/index']],
-            ['label' => '画友', 'url' => ['/site/about']],
-            ['label' => '游戏中心', 'url' => ['/site/contact']],
-            ['label' => '直播', 'url' => ['/site/about']],
-            ['label' => '周边', 'url' => ['/site/about']],
-            ['label' => 'BML', 'url' => ['/site/about']],
+            ['label' => '画友', 'url' => ['/site/h']],
+            ['label' => '游戏中心', 'url' => ['/site/game']],
+            ['label' => '直播', 'url' => ['/site/live']],
+            ['label' => '周边', 'url' => ['/site/zb']],
+            ['label' => 'BML', 'url' => ['/site/bml']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
@@ -78,8 +78,8 @@ AppAsset::register($this);
         'items' => [
             ['label' => '关于我们', 'url' => ['/site/about']],
             ['label' => '联系我们', 'url' => ['/site/contact']],
-            ['label' => '友情链接', 'url' => ['/site/about']],
-            ['label' => '加入我们', 'url' => ['/site/about']],
+            ['label' => '友情链接', 'url' => ['/site/friends-links']],
+            ['label' => '加入我们', 'url' => ['/site/join']],
         ],
 
     ]);

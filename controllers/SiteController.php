@@ -91,4 +91,39 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+     public function actionJoin()
+    {
+        return $this->render('join');
+    }
+
+    public function actionFriendsLinks()
+    {
+        return $this->render('friends-links');
+    }
+
+       public function actionH()
+    {
+        return $this->render('h');
+    }
+
+    public function actionGame()
+    {
+        return $this->render('game');
+    }
+
+    public function actionLive()
+    {
+        return $this->render('live');
+    }
+
+    public function actionZb()
+    {
+        return $this->render('zb');
+    }
+
+    public function actionBml()
+    {
+        return $this->render('bml');
+    }
 }
