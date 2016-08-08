@@ -6,7 +6,7 @@
  * Time: 下午8:23
  */
 use yii\helpers\Html;
-$this->title = '直播';
+$this->title = '周边';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class = "site-zb">
