@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class = "site-friends-links">
     <h1><?=Html::encode($this->title) ?></h1>
     <p>
-        <a href="www.kankanews.com">看看</a>
+        <a href="http://www.kankanews.com">看看</a>
 
     </p>
 
