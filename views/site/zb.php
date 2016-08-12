@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class = "site-zb">
     <h1><?=Html::encode($this->title) ?></h1>
     <p>
-        周边
+        周边aa
 
     </p>
 
